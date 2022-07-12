@@ -35,7 +35,7 @@ public class HelloServlet extends HttpServlet {
             여러가지 WAS 서버들이 (톰캣, 제티 etc) 서블릿 표준스펙을 구현한다. - 구현체 존재
             RequestFacade@16b6b83a - 이런 구현체들이 찍히는 것
 
-            ** Request Header 는 웹브라우저가 보내는 정보
+            ** Request Header 는 웹브라우저가 보내는 정보(무시한다)
 
          */
         System.out.println("request = " + request); // soutv 단축키
